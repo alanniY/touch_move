@@ -1,0 +1,84 @@
+* {
+  border: 0 none;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+ul, ol, li {
+  list-style: outside none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+img {
+  border: medium none;
+  vertical-align: middle;
+}
+input, input:link, input:hover, textarea, button, select {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  background-color: transparent;
+}
+input, select {
+  outline: none;
+}
+textarea, button {
+  outline: medium none;
+  resize: none;
+}
+body {
+  font-family: "Microsoft YaHei";
+  font-weight: lighter;
+  overflow: scroll;
+}
+.clear {
+  display: block;
+  zoom: 1;
+  overflow: hidden;
+}
+.css-table {
+  display: table;
+  position: absolute;
+  height: 100%;
+}
+.css-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.modal-bg {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.modal-bg .modal-content {
+  position: relative;
+  padding: 0 50px;
+  background-color: #fff;
+}
+.modal-bg .modal-content .modal-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  background: url(shanxi/close.png) no-repeat center center;
+}
+.modal-bg .css-table {
+  width: 100%;
+  padding: 0 70px;
+}
+.modal-bg .css-table .modal-content {
+  text-align: center;
+  border-radius: 8px;
+}
